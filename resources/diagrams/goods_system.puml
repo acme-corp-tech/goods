@@ -1,0 +1,7 @@
+@startuml "goods_system"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!include goods_components.puml
+!include goods_relations.puml
+
+@enduml

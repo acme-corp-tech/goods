@@ -1,0 +1,9 @@
+@startuml "goods_components"
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+System_Boundary(goods_system, "[[https://github.com/acme-corp-tech/architecture/wiki/goods_system.svg Goods]]") {
+    Container(goods, "Goods", "Go", "Change Me", $sprite="go")
+    ContainerDb(goods_db, "Goods Database", "MySQL", "", $sprite="mysql")
+}
+
+@enduml
